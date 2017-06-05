@@ -1,0 +1,236 @@
+/**
+* finalchan.css
+* Finalchan is the best
+* you are forbidden by law from making any unauthorized edits to this file. I'll murder your fucking family.
+*/
+body {
+	background: #ffedd3
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #db5b20;
+}
+
+a:link:hover, a:visited:hover {
+	color: #DD0000;
+}
+
+a.post_no {
+	color: #000033;
+}
+
+p.intro a.email span.name {
+	color: #117743;
+}
+
+p.intro a.email:hover span.name {
+	color: #DD0000;
+}
+
+h2, div.title, h1 {
+	color: #4557b5;
+}
+
+header div.subtitle, h1 {
+	color: #4557b5
+}
+
+form table tr th {
+	background: #ffcb99;
+}
+
+div.banner {
+	background-color: #E04000;
+}
+
+div.post.op hr {
+	border-color: #ffedd3;
+}
+
+img.banner, img.board_image {
+	border: none
+}
+
+p.intro span.subject {
+	color: #4557b5;
+	font-weight: 800;
+}
+
+p.intro span.capcode, p.intro a.capcode, p.intro a.nametag {
+	color: #ff5000;
+}
+
+
+p.intro span.name {
+	color: #117743;
+	font-weight: 800;
+}
+
+div.post.reply.highlighted {
+	background: #ffcb99;
+	border: 1px;
+	border-color: #ffcb99;
+	box-shadow: none;
+}
+
+div.post.reply {
+	background: #ffddbc;
+	border: 1px;
+	border-color: #ffddbc;
+	box-shadow: none;
+}
+
+div.post.reply div.body a {
+	color: #db5b20
+}
+
+div.ban {
+	border: none;
+}
+
+div.ban h2 {
+	background: #ffcb99;
+	color: #4557b5;
+}
+
+div.pages {
+	color: #db5b20;
+	background: #ffedd3;
+	border-right: none;
+	border-bottom: none;
+}
+
+hr {
+	border-color: #ffcf88;
+}
+
+div.boardlist {
+	color: #ffb547;
+}
+
+table.modlog tr th {
+	background: #ffcb99;
+}
+
+input[type="text"], textarea, select {
+	background: #ffffff;
+	color: #0b0c0c;
+	border: #ffffff 1px solid;
+	padding-left: 5px;
+	padding-right: -5px;
+	height: auto;
+	margin-top: 5px !important;	
+}
+input[type="password"] {
+	background: #ffffff;
+	color: #0b0c0c;
+	border: #ffffff 1px solid;
+}
+
+div.banner {
+	background: #ffedd3; 
+	color: #4557b5;
+	text-align: center;
+}
+
+div.banner a {
+	color: #4557b5;
+}
+
+div.banner a:hover {
+	color: #81c6ce
+}
+
+fieldset {
+	border: 0px;
+}
+
+fieldset legend {
+	margin: 0;
+	font-weight: bold;
+	padding: 0;
+	color: #4557b5;
+	background: #ffcb99;
+	font-size: 100%;
+	padding: 1px 5px 1px 5px;
+	width: 100%;
+}
+
+.theme-catalog div.thread img {
+	float: none!important;
+	margin: auto;
+	max-height: 150px;
+	max-width: 120px;
+	box-shadow: none;	
+	border: none;
+}
+
+.theme-catalog div.thread {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 5px;
+	height: 300px;
+	width: 205px;
+	overflow: hidden;
+	position: relative;
+	font-size: 11px;
+	max-height: 300px;
+	background: #ffddbc;
+	border: 2px solid #ffcb99;
+}
+
+.box-wrap {
+	max-width: 670px;
+	min-width: 332px;
+	margin: 30px auto;
+	overflow: auto;
+	padding: 0;
+}
+.box {
+	background: white;
+	border: none;
+	width: 330px;
+	margin: 8px 0;
+	padding: 0;
+}
+.box ul {
+	padding: 2px 15px;
+}
+.box ul li {
+	list-style: none;
+	margin: 0;
+}
+.box.left {
+	background: #ffffff;
+	color: #060;
+	border: none;
+	float: left;
+}
+.box.right {
+	background: #ffffff;
+	color: #4557b5;
+	border: none;
+	float: right;
+}
+
+.box h2 {
+	padding: 3px 7px;
+	font-size: 12pt;
+}
+.box.left h2 {
+	background: #ffcb99;
+	color: #4557b5;
+}
+.box.right h2 {
+	background: #ffcb99;
+	color: #4557b5;
+}
+.box img {
+	float: none;
+	margin: 10px auto;
+}

@@ -1,0 +1,270 @@
+/*
+*	sugoiuguu.css
+*	CSS for Finalchan based on sugoiuguu's CSS from his darkweb site
+*/ 
+
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+body {
+	background: #212724;
+	color: #c5c8c6;
+	font-family: 'Questrial', sans-serif;
+	font-size: 10pt;
+	margin: 1.2%;
+}
+
+div.ban {
+	background: transparent;
+	border: none;
+}
+
+div.ban h2 {
+	background: transparent;
+	text-shadow: none;
+	color: #8AB5F2;
+}
+
+a:link, a:visited, p.intro a.email span.name, p.intro a.post_no, div.post.reply div.body a, h1 a {
+    -moz-transition: 0.15s color;
+	-webkit-transition: 0.15s color;
+	-khtml-transition: 0.15s color;
+	-o-transition: 0.15s color;
+	-ms-transition: 0.15s color;
+	transition:0.15s color;
+}
+
+div.post.reply.highlighted {
+    -moz-transition: 0.15s background;
+	-webkit-transition: 0.15s background;
+	-khtml-transition: 0.15s background;
+	-o-transition: 0.15s background;
+	-ms-transition: 0.15s background;
+	transition:0.15s background;
+}
+
+a, a:visited, a.email {
+	text-decoration: none;
+	color: #80FF80;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+h2, h1, header div.subtitle {
+	font-family: 'Questrial', sans-serif;
+	color: #44ff9b;
+	text-shadow: 0px 2px 3px #000;
+}
+
+h1 {
+	letter-spacing: 1pt;
+	font-size: 20pt;
+	margin-top: 50px;
+	font-weight: normal;
+}
+
+header div.subtitle {
+	font-size: 12pt;
+	margin-bottom: 50px;
+}
+
+div.boardlist {
+	color: #c5c8c6;
+	text-align: center;
+	align-content: center;
+	font-size: 10pt;
+	margin-bottom: 20px;
+}
+
+form table tr th {
+	background: #1c211e !important;
+	color: #44ff9b !important;
+	text-align: right;
+	padding: 4px;
+}
+
+div.banner, div.banner a {
+	background-color: transparent;
+	color: #c5c6c8;
+}
+
+input[type="text"], textarea, select {
+	background: #1c211e;
+	color: #44ff9b;
+	padding-left: 5px;
+	padding-right: -5px;
+	height: auto;
+	border: none;
+	font-size: 12pt;
+}
+
+input[type="password"] {
+	background: #1c211e;
+	color: #44ff9b;
+	border: none;
+}
+
+form table input, a.add_image {
+	background: #1c211e;
+	color: #44ff9b;
+	border: none;
+	margin-top: 1px;
+	padding: 4px;
+	font-family: 'Questrial', sans-serif;
+}
+
+a.add_image {
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+
+hr {
+	border-color: #1c211e;
+}
+
+div.post.reply {
+	background: #1c211e;
+	border: none !important;
+}
+
+div.post.reply.highlighted {
+	background: #29302c;
+}
+
+div.post.reply div.body a {
+	color: #80FF80;
+}
+
+div.post.reply div.body a:hover {
+	color: #fff;
+}
+
+span.quote {
+	color: #45bf45;
+}
+
+a.post_number:hover {
+	color: #a54242;
+}
+
+.intro span.capcode {
+	color: #a54242;
+}
+
+span.trip {
+	color: #f0c674;
+}
+
+img.banner, img.board_image {
+	border: none;
+}
+
+.intro span.subject {
+	color: #47769d;
+	font-weight: normal;
+}
+
+.intro span.name {
+	font-weight: normal;
+}
+
+.intro a.email span.name {
+	color: #117743;
+	font-weight: normal;
+}
+
+.intro a.email span.name:hover {
+	color: #a54242;
+}
+
+div.pages {
+	background: #1c211e;
+	border: none;
+	color: #c5c8c6;
+}
+
+div.pages a.selected {
+	color: #c5c8c6;
+}
+
+div.styles {
+	text-align: center;
+	float: none;
+}
+
+.theme-catalog div.thread img {
+	float: none!important;
+	margin: auto;
+	max-height: 150px;
+	max-width: 120px;
+	box-shadow: none;	
+	border: none;
+}
+
+
+.theme-catalog div.thread {
+	background: #1c211e;
+	border: 2px solid #1c211e;
+	min-height: 250px;
+}
+
+.theme-catalog div.thread:hover {
+	background: #29302c;
+}
+
+
+.box-wrap {
+	max-width: 670px;
+	min-width: 332px;
+	margin: 30px auto;
+	overflow: auto;
+	padding: 0;
+}
+.box {
+	background: #1c211e;
+	border: none;
+	width: 330px;
+	margin: 8px 0;
+	padding: 0;
+}
+.box ul {
+	padding: 2px 15px;
+}
+.box ul li {
+	list-style: none;
+	margin: 0;
+}
+.box.left {
+	background: #1c211e;
+	color: #c5c8c6;
+	border: none;
+	float: left;
+}
+.box.right {
+	background: #1c211e;
+	color: #c5c8c6;
+	border: none;
+	float: right;
+}
+
+.box h2 {
+	padding: 3px 7px;
+	font-size: 12pt;
+	text-shadow: none;
+}
+.box.left h2 {
+	background: #1c211e;
+	color: #8AB5F2;
+	text-shadow: none;
+}
+.box.right h2 {
+	background: #1c211e;
+	color: #8AB5F2;
+	text-shadow: none;
+}
+.box img {
+	float: none;
+	margin: 10px auto;
+}

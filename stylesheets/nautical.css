@@ -1,0 +1,375 @@
+/*
+*	nautical.css
+*	A bluish theme for Finalchan made by illu
+*/
+
+/* Extra fonts */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/* Base stuff */
+
+html {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-size: 10pt;
+}
+
+body {
+  	background: #546e7a;
+  	color: #eff1f5;
+	padding: 0.8em;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-size: 10pt;
+}
+
+/* Basic theme stuff */
+
+div.ban {
+	background: #e1e3e7;
+	color: #2b303b;
+	border: 1px transparent;
+	border-radius: 2px !important;
+	box-shadow: 0px 1px 3px #20242c;
+}
+
+body.theme-basic h1, body.theme-recent h1, body.static-rules h1, body.static-irc h1, body.static-legal h1 {
+	margin-top: 1.2em
+}
+
+div.ban h2 {
+	background: #557991;
+	color: #eff1f5;
+	box-shadow: -3px 2px 3px rgba(0,0,0,0.1);
+	font-weight: 300;
+}
+
+/* Transitions */
+a:link, a:visited, p.intro a.email span.name, p.intro a.post_no, div.post.reply div.body a, h1 a {
+	-moz-transition: 0.15s color;
+	-webkit-transition: 0.15s color;
+	-khtml-transition: 0.15s color;
+	-o-transition: 0.15s color;
+	-ms-transition: 0.15s color;
+	transition:0.15s color;
+}
+
+.theme-catalog div.thread {
+	-moz-transition: 0.15s color, 0.15s background, 0.15s border-color;
+	-webkit-transition: 0.15s color, 0.15s background, 0.15s border-color;
+	-khtml-transition: 0.15s color, 0.15s background, 0.15s border-color;
+	-o-transition: 0.15s color, 0.15s background, 0.15s border-color;
+	-ms-transition: 0.15s color, 0.15s background, 0.15s border-color;
+	transition:0.15s color, 0.15s background, 0.15s border-color;
+}
+
+/* Main board stuff */
+
+a, a:visited {
+	color: #64e169;
+	text-decoration: none !important;
+}
+
+a:hover, a:visited:hover {
+	color: #eff1f5;
+}
+
+div.boardlist {
+	width: 100% !important;
+	position: fixed !important;
+	z-index: 99999 !important;
+	top: 0 !important;
+	left: 0 !important;
+	margin-top: 0 !important;
+	box-shadow: 0 1px 4px rgba(32,36,44,0.2) !important;
+	padding: 0.5em;
+	background: rgba(84,110,122,0.8) !important;
+	color: #3a4c54;
+	text-align: center;
+}
+
+img.board_image {
+	margin-top: 2.5em;
+}
+
+img.banner, img.board_image {
+	border: none;
+}
+
+h1, div.subtitle, div.blotter {
+	color: #bde4e3 !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+}
+
+h1 {
+	letter-spacing: 0.1pt
+}	
+
+div.banner {
+	background: #607d8b;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+/* Post form */
+
+form table tr th {
+	background: #607d8b;
+}
+
+input[type="text"], input[type="password"], textarea {
+	background: #dadce0;
+	color: #2b303b;
+	border: 3px solid #dadce0;
+	padding-left: 5px;
+	padding-right: -5px;
+	height: auto;
+}
+
+.dropzone .file-hint {
+	background: #607d8b;
+	border-color: #303e45;
+	color: #303e45;
+  
+}
+
+.dropzone .remove-btn {
+	color: #303e45;
+}
+
+.dropzone .remove-btn:hover {
+	color: #eff1f5;
+}
+
+
+div.dropzone {
+	background: #607d8b;
+}
+
+.dropzone:hover .file-hint:hover {
+	color: #eff1f5;
+	border-color: #eff1f5; 
+}
+
+/* Fix quick reply */
+form#quick-reply {
+	top: 2em;
+	box-shadow: 0px 1px 4px #20242c;
+}
+
+form#quick-reply input[name="subject"] {
+	width: 200px !important;
+}
+
+#quick-reply td.submit {
+	width: 100px !important;
+}
+
+form#quick-reply th {
+	border: none;
+}
+
+form#quick-reply th .close-btn {
+	color: #2b303b;
+}
+
+
+/* Thread stuff */
+
+hr {
+	border-width: 3px;
+	border-color: #607d8b;
+}
+
+div.post.reply {
+	background: #e1e3e7;
+	color: #2b303b; 
+	border: none !important;
+	border-radius: 2px;
+	box-shadow: 0px 1px 3px #20242c;
+}
+
+div.post.reply.highlighted {
+	background: #ffffff !important;
+}
+
+div.post.reply .intro span.name {
+	color: #2b904a;
+}
+
+div.post.reply div.body a, div.post.reply p.fileinfo a, span.mentioned a, .theme-catalog div.thread:hover a, div.ban a {
+	color: #4192ce !important;
+}
+
+div.post.reply div.body a:hover, div.post.reply p.fileinfo a:hover, span.mentioned a:hover {
+	color: #1f5459 !important;
+}
+
+.intro * {
+	font-weight: 300 !important;
+}
+
+.intro span.subject {
+	color: #00467a;
+}
+
+span.heading, span.public_ban {
+	color: #ff6666;
+}
+
+div.post.reply span.heading, div.post.reply span.public_ban {
+	color: #bf3939;
+}
+
+.intro span.name {
+	color: #64e169;
+}
+
+.intro span.capcode {
+	color: #cc9edf;
+	font-weight: 500 !important;
+}
+
+div.post.reply span.capcode {
+	color: #8f50b3 !important;
+}
+span.quote {
+	color: #72cc8d;
+}
+
+span.spoiler {
+	background: #2b303b;
+	color: #2b303b;
+}
+
+span.spoiler:hover {
+	color: #e1e3e7;
+}
+
+span.trip {
+	color: #8abeb7;
+}
+
+.intro a.email span.name:hover {
+	color: #eff1f5
+}
+
+
+a.post_no:hover {
+	color: #c43b3e !important;
+}
+
+div.post.reply span.quote, .theme-catalog div.thread:hover span.quote {
+	color: #2b904a !important;
+}
+
+code {
+	background-color: rgba(0,0,0,0.2) !important;
+	padding-bottom: 0.15em;
+}
+
+/* Pages */
+
+div.pages {
+	background: #607d8b;
+	border: none;
+	color: #bde4e3;
+}
+
+div.pages .selected {
+	color: #bde4e3 !important;
+}
+
+/* Catalog stuff */
+
+body.theme-catalog h1 {
+	margin-top: 1.5em;
+}
+
+.theme-catalog div.thread {
+	border-color: #607781;
+	margin: 0.25em;
+}
+
+.theme-catalog div.thread:hover {
+	border-color: #e1e3e7;
+	background: #e1e3e7;
+	color: #2b303b;
+  
+}
+
+
+/* Recents stuff */ 
+
+.box-wrap {
+	max-width: 670px;
+	min-width: 332px;
+	margin: 30px auto;
+	overflow: visible;
+	padding: 0;
+}
+.box {
+	background: #e1e3e7;
+	color: #2b303b; 
+	border: none;
+	width: 330px;
+	margin: 8px 0;
+	padding: 0;
+	box-shadow: 0px 0px 3px #20242c;
+}
+.box ul {
+	padding: 2px 15px;
+}
+.box ul li {
+	list-style: none;
+	margin: 0;
+}
+.box.left {
+	background: #e1e3e7;
+	color: #2b303b;
+	border: none;
+	float: left;
+	
+}
+.box.right {
+	background: #e1e3e7;
+	color: #2b303b;
+	border: none;
+	float: right;
+}
+
+.box.right a {
+	color: #4192ce;
+}
+
+.box h2 {
+	padding: 3px 7px;
+	font-size: 12pt;
+	font-weight: 300;
+}
+.box.left h2 {
+	background: #557991;
+	color: #eff1f5;
+	font-weight: 300;
+}
+.box.right h2 {
+	background: #557991;
+	color: #eff1f5;
+	font-weight: 300;
+}
+.box img {
+	float: none;
+	margin: 10px auto;
+}
+
+# Banlist stuffs
+
+#banlist td {
+	background: transparent !important;
+}
+
+#banlist td:hover {
+	background: #607D8B !important;
+	border: none !important;
+}
